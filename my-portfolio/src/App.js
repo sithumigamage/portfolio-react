@@ -9,7 +9,7 @@ function App() {
   return (
     <div className={darkMode ? 'dark' : 'light'}>
       <header className="navbar">
-        <h2>Your Name</h2>
+        <h2>SITHUMI GAMAGE</h2>
         <nav>
           <a href="#bio">Bio</a>
           <a href="#papers">Papers</a>
@@ -23,7 +23,7 @@ function App() {
       <main className="container">
         <div className="profile">
           <img src="https://via.placeholder.com/120" alt="Profile" className="avatar" />
-          <h3>SITHUMI GANAGE</h3>
+          <h3>SITHUMI GAMAGE</h3>
           <p>Software Engineer</p>
           <p>OpenAI</p>
           <div className="socials">
