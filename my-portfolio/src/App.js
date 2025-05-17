@@ -62,7 +62,7 @@ function App() {
 
         </div>
 
-        <div className="about">
+        <div id="bio" className="about">
           <h2>About Me💡👨‍💻</h2>
           <p>
               I’m sithumi gamage, a <span className="highlight">Computer Science undergraduate</span> at eastern university
@@ -94,16 +94,41 @@ function App() {
     </ul>
   </div>
 </div>
+</div>
+
+ 
+</main>
 
 
+ {/* PAPERS SECTION */}
+<div id="papers" className="papers-section" style={{ marginTop: '3rem' }}>
+  <h3>Papers</h3>
+  <p>My research explores the intersection of AI innovation and social impact,
+     focusing on developing scalable machine learning solutions for real-world challenges.
+      Currently, I’m optimizing transformer models for low-resource language processing 
+      (92% accuracy) and designing efficient edge AI systems for healthcare, achieving 
+      a 40% reduction in inference time for medical imaging tasks. I’m passionate about 
+      ethical AI—recently open-sourcing a toolkit to mitigate bias in facial recognition systems. 
+      My work prioritizes reproducibility, scalability, and human-centered design, 
+      bridging cutting-edge theory with practical deployment. Published at [Conference Name] 
+      and collaborating with [Lab/Team].</p>
+</div>
 
-
-
-
-
-
-        </div>
-      </main>
+{/* PROJECTS SECTION */}
+<div id="projects" className="projects-section" style={{ marginTop: '3rem' }}>
+  <h3>Projects</h3>
+  <p>Details about your development projects, technologies used, and links to
+     GitHub or live demos.My research explores the intersection of AI innovation
+      and social impact, focusing on developing scalable machine learning solutions
+       for real-world challenges. Currently, I’m optimizing transformer models 
+       for low-resource language processing (92% accuracy) and designing efficient
+        edge AI systems for healthcare, achieving a 40% reduction in inference time 
+        for medical imaging tasks. I’m passionate about ethical AI—recently open-sourcing
+         a toolkit to mitigate bias in facial recognition systems. My work prioritizes 
+         reproducibility, scalability, and human-centered design, bridging cutting-edge
+          theory with practical deployment. Published at [Conference Name] and collaborating
+           with [Lab/Team].</p>
+</div>
     </div>
   );
 }
