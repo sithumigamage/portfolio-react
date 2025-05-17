@@ -36,8 +36,11 @@ function App() {
         <div className="about">
           <h3>About Me</h3>
           <p>
-            I am a professor of AI at the Stanford AI Lab. I work on distributed robotics,
-            mobile computing and programmable matter.
+            I’m sithumi gamage, a Computer Science undergraduate at eastern university 
+            with a passion for turning complex problems into elegant, scalable solutions.
+            My expertise spans full-stack development (React, Node.js, Python) and AI/ML, 
+            backed by hands-on experience from internships, hackathons, and open-source contributions. 
+            I thrive on collaboration—let’s build something meaningful together!
           </p>
           <a href="/cv.pdf" download className="btn">Download CV</a>
 
