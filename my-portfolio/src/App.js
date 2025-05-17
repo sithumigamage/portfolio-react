@@ -58,9 +58,8 @@ function App() {
             <div>
               <h4>Education</h4>
               <ul>
-                <li>PhD AI – Stanford University</li>
-                <li>MEng AI – MIT</li>
-                <li>BSc AI – MIT</li>
+                <li>BSc CS – Eastern University</li>
+                
               </ul>
             </div>
           </div>
