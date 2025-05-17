@@ -23,8 +23,8 @@ function App() {
       <main className="container">
         <div className="profile">
           <img src="https://via.placeholder.com/120" alt="Profile" className="avatar" />
-          <h3>Chien Shiung Wu</h3>
-          <p>Chief Scientist</p>
+          <h3>SITHUMI GANAGE</h3>
+          <p>Software Engineer</p>
           <p>OpenAI</p>
           <div className="socials">
             <a href="#"><i>GitHub</i></a>
