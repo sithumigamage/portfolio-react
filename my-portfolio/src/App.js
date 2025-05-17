@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import './styles.css';
+import profileImg from './profile.jpg';
+
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -22,7 +24,7 @@ function App() {
 
       <main className="container">
         <div className="profile">
-          <img src="https://via.placeholder.com/120" alt="Profile" className="avatar" />
+          <img src={profileImg} alt="Profile" className="avatar" />
           <h3>SITHUMI GAMAGE</h3>
           <p>Software Engineer</p>
           <p>OpenAI</p>
