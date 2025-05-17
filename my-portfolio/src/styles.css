@@ -186,5 +186,58 @@ nav {
   margin-bottom: 0.5rem;
 }
 
+.papers-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;  /* centers horizontally */
+  justify-content: center; /* centers vertically (if height is large) */
+  text-align: center;
+  margin: 0 auto;
+}
+
+.papers-section {
+  padding: 3rem 1rem;
+}
+
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.projects-section {
+  padding: 3rem 1rem;
+}
+
+.papers-text {
+  font-size: 2rem;        /* Enlarges text */
+  line-height: 1.8;         /* Adds line spacing */
+  max-width: 700px;         /* Optional: keeps text from stretching too wide */
+}
+
+.projects-text {
+  font-size: 2rem;        /* Enlarges text */
+  line-height: 1.8;         /* Adds line spacing */
+  max-width: 700px;         /* Optional: keeps text from stretching too wide */
+}
+
+
+
+
+
+
+.papers-img {
+  width: 200px;         /* You can increase this to 250px or more */
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  gap: 5rem;
+}
+
 
 

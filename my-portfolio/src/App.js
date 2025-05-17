@@ -101,9 +101,14 @@ function App() {
 
 
  {/* PAPERS SECTION */}
-<div id="papers" className="papers-section" style={{ marginTop: '3rem' }}>
-  <h3>Papers</h3>
-  <p>My research explores the intersection of AI innovation and social impact,
+<div id="papers" className="section papers-section">
+   <div className="papers-container">
+    
+ 
+   
+
+  <h1>Papers</h1>
+  <p className="papers-text">My research explores the intersection of AI innovation and social impact,
      focusing on developing scalable machine learning solutions for real-world challenges.
       Currently, I’m optimizing transformer models for low-resource language processing 
       (92% accuracy) and designing efficient edge AI systems for healthcare, achieving 
@@ -112,12 +117,20 @@ function App() {
       My work prioritizes reproducibility, scalability, and human-centered design, 
       bridging cutting-edge theory with practical deployment. Published at [Conference Name] 
       and collaborating with [Lab/Team].</p>
+
+      <img src="/pic2.jpg" alt="Right" className="papers-img" />
+      <img src="/pic1.jpg" alt="Left" className="papers-img" />
+   
+
+      </div>
 </div>
 
 {/* PROJECTS SECTION */}
-<div id="projects" className="projects-section" style={{ marginTop: '3rem' }}>
-  <h3>Projects</h3>
-  <p>Details about your development projects, technologies used, and links to
+
+  <div id="projects" className="section projects-section">
+  <div className="projects-container">
+  <h1>Projects</h1>
+  <p className="projects-text">Details about your development projects, technologies used, and links to
      GitHub or live demos.My research explores the intersection of AI innovation
       and social impact, focusing on developing scalable machine learning solutions
        for real-world challenges. Currently, I’m optimizing transformer models 
@@ -128,8 +141,9 @@ function App() {
          reproducibility, scalability, and human-centered design, bridging cutting-edge
           theory with practical deployment. Published at [Conference Name] and collaborating
            with [Lab/Team].</p>
-</div>
-    </div>
+           </div>
+      </div>
+      </div>
   );
 }
 
