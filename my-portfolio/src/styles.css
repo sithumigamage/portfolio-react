@@ -8,10 +8,23 @@ body {
   transition: all 0.3s ease;
 }
 
-.light-theme {
+.highlight {
+  font-weight: bold;
+  color: #00bcd4;
+}
+
+
+
+.dark {
+  background-color: #0f3d3e;
+  color: white;
+}
+
+.light {
   background-color: #ffffff;
   color: #111;
 }
+
 
 a {
   text-decoration: none;
@@ -33,6 +46,13 @@ a {
   gap: 1.5rem;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  gap: 6rem; /* increase as needed */
+}
+
+
 .theme-toggle {
   cursor: pointer;
   font-size: 1.2rem;
@@ -46,6 +66,12 @@ a {
   gap: 2rem;
 }
 
+.profile-text {
+  margin-left: 14rem;
+  text-align: left;
+}
+
+
 .left-panel {
   flex: 1;
   max-width: 300px;
@@ -54,13 +80,17 @@ a {
   align-items: center;
 }
 
+
+
 .avatar {
-  width: 120px;
-  height: 120px;
+  width: 600px;
+  height: 600px;
   border-radius: 50%;
   object-fit: cover;
   border: 3px solid white;
 }
+
+
 
 .name {
   margin-top: 1rem;
@@ -77,15 +107,23 @@ a {
 
 .social-icons {
   display: flex;
-  gap: 0.8rem;
+  gap: 2.5rem; /* increase gap between icons */
   margin-top: 1rem;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.social-icons a {
-  font-size: 1.3rem;
+
+
+
+.social-icons i {
+  font-size: 2.5rem; /* bigger size, adjust as you like */
   color: white;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover i {
+  color: #00bcd4;
 }
 
 /* Right Panel */
@@ -94,13 +132,18 @@ a {
 }
 
 .about {
-  margin-bottom: 1.5rem;
+  margin-bottom: 3rem;
 }
 
 .about h2 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
 }
+
+.about p {
+  line-height: 2; /* or try 2 for more space */
+}
+
 
 .download-btn {
   background-color: #1e293b;
