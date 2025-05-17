@@ -48,9 +48,11 @@ function App() {
             <div>
               <h4>Interests</h4>
               <ul>
+                <li>Full-Stack Development</li>
                 <li>Artificial Intelligence</li>
-                <li>Computational Linguistics</li>
-                <li>Information Retrieval</li>
+                <li>problem-solving and innovation</li>
+                <li>DevOps & Scalability</li>
+                <li>Open-Source</li>
               </ul>
             </div>
             <div>
