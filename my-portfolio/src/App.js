@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './styles.css';
-import profileImg from './profile.jpg';
+import profileImg from './ga.jpeg';
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -23,7 +23,7 @@ function App() {
 
       <main className="container">
         <div className="profile">
-          <img src={profileImg} alt="Profile" className="avatar" />
+          <img src={profileImg} alt="profile" className="avatar" />
           <h3 className="profile-text">SITHUMI GAMAGE</h3>
           <h4 className="profile-text">software engineer👨‍💻</h4>
           <p className="profile-text">Let’s Connect🔍🌍</p>
