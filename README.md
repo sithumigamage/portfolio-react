@@ -38,7 +38,7 @@ This is a personal portfolio website built with React.js to showcase my projects
 
 ## Screenshots
 
-![Screenshot 1](public/assets/Screenshot%20(58).png)
+![Screenshot 1](images/Screenshot%20(58).png)
 ![Screenshot 2](public/assets/Screenshot%20(59).png)
 ![Screenshot 3](public/assets/Screenshot%20(60).png)
 ![Screenshot 4](public/assets/Screenshot%20(61).png)
