@@ -36,3 +36,4 @@ This is a personal portfolio website built with React.js to showcase my projects
 4. Start the development server
    -  npm start
 
+![Portfolio Screenshot](public/assets/screenshot(58).png)
