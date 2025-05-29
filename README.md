@@ -30,9 +30,9 @@ This is a personal portfolio website built with React.js to showcase my projects
    git clone https://github.com/your-username/portfolio-website.git
 
 2. Navigate to the project directory
-   cd portfolio-website
+   - cd portfolio-website
 3. Install dependencies
-   npm install
+  -  npm install
 4. Start the development server
-   npm start
+   - npm start
 
